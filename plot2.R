@@ -1,6 +1,3 @@
-#Working drive
-setwd("C:/Users/cheaven88/Documents/Online Courses/Coursera/Exploratory Data Analysis/Course Project 1")
-getwd()
 
 #importing data
 datimport <- read.table("household_power_consumption.txt", sep = ";", na.strings = c("NA", "?"), header = TRUE, nrows=2075259)
