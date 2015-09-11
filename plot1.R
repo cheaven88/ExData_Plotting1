@@ -9,6 +9,7 @@ dat.import <- read.table("household_power_consumption.txt",
 dat <- subset(dat.import, 
               Date %in% c("1/2/2007", "2/2/2007"))
 
+
 #using png function to save the plot
 png('./ExData_Plotting1/plot1.png', width = 480, height = 480)
 
